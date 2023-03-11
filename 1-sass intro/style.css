@@ -1,0 +1,12 @@
+div {
+  text-align: center;
+  font-size: 36px;
+  color: red;
+}
+div p {
+  text-align: left;
+  color: blueviolet;
+}
+div p span {
+  color: greenyellow;
+}/*# sourceMappingURL=style.css.map */

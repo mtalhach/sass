@@ -1,0 +1,9 @@
+section {
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-delay: 3s;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */

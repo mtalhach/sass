@@ -1,0 +1,4 @@
+sudo apt install ruby-sass
+sass -v
+sass style.scss style.css
+sass --watch style.scss:style.css

@@ -1,0 +1,49 @@
+/*
+@mixin baseWidget {
+  @content;
+  margin: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  color: white;
+}
+
+#small-button {
+  @include baseWidget {
+    background-color: blue;
+    padding: 10px 24px;
+  }
+}
+*/
+body {
+  background-color: red;
+}
+
+@mixin media($max-width) {
+  @media screen and (max-width: $max-width) {
+    @content;
+  }
+}
+
+@include media(1440px) {
+  body {
+    background-color: pink;
+  }
+}
+@include media(1180px) {
+  body {
+    background-color: red;
+  }
+}
+@include media(960px) {
+  body {
+    background-color: green;
+  }
+}
+@include media(720px) {
+  body {
+    background-color: blue;
+  }
+}

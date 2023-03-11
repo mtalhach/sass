@@ -1,0 +1,40 @@
+//Global variables
+$primary-color: red;
+$primary-dull-color: rgba($primary-color, 0.5);
+$secondary-color: green;
+$primary-font-size: 36px;
+$primary-text-shadow: 4px 4px 4px;
+
+div {
+  outline: 10px solid $primary-color;
+  //local variable
+  $primary-color: blue !global;
+  text-align: center;
+  font-size: $primary-font-size;
+  color: $primary-color;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: $primary-text-shadow $primary-color;
+}
+div::selection {
+  color: black;
+  background: $secondary-color;
+  text-shadow: none;
+}
+p {
+  text-align: end;
+  font-size: $primary-font-size;
+  color: $primary-color;
+  background-color: $secondary-color;
+  transition: all 0.5;
+}
+p:hover {
+  text-align: start;
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+section {
+  text-align: start;
+  font-size: $primary-font-size;
+  color: $primary-color;
+}

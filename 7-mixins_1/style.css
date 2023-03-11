@@ -1,0 +1,43 @@
+/*
+@mixin baseWidget {
+  @content;
+  margin: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  color: white;
+}
+
+#small-button {
+  @include baseWidget {
+    background-color: blue;
+    padding: 10px 24px;
+  }
+}
+*/
+body {
+  background-color: red;
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+@media screen and (max-width: 1180px) {
+  body {
+    background-color: gray;
+  }
+}
+@media screen and (max-width: 960px) {
+  body {
+    background-color: green;
+  }
+}
+@media screen and (max-width: 720px) {
+  body {
+    background-color: blue;
+  }
+} /*# sourceMappingURL=style.css.map */

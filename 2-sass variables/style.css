@@ -1,0 +1,41 @@
+div {
+  outline: 10px solid red;
+  text-align: center;
+  font-size: 36px;
+  color: blue;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 4px blue;
+}
+
+div::-moz-selection {
+  color: black;
+  background: green;
+  text-shadow: none;
+}
+
+div::selection {
+  color: black;
+  background: green;
+  text-shadow: none;
+}
+
+p {
+  text-align: end;
+  font-size: 36px;
+  color: blue;
+  background-color: green;
+  transition: all 0.5;
+}
+
+p:hover {
+  text-align: start;
+  color: green;
+  background-color: blue;
+}
+
+section {
+  text-align: start;
+  font-size: 36px;
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
