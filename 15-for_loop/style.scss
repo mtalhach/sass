@@ -1,0 +1,6 @@
+@for $i from 1 through 5 {
+  .item-#{$i} {
+    border-width: 10px;
+    background-color: darken(rgb(247, 173, 247), $i * 20%);
+  }
+}

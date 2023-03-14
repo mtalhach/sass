@@ -1,0 +1,9 @@
+div {
+  padding: 2;
+  padding: 20px;
+  padding: 10px 40px 30px;
+  padding: 10px / 20px / 30px;
+  padding: 1px first, 2px second, 3px third;
+  padding: 2;
+  padding: 10px, 20px, 30px, 40px;
+}/*# sourceMappingURL=style.css.map */

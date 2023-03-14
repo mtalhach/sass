@@ -1,0 +1,9 @@
+$width: 100px;
+@function double($width) {
+  @return 2 * $width;
+}
+div {
+  // $doubleWidth: double($width);
+  // width: $doubleWidth;
+  width: double($width);
+}

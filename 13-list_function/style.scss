@@ -1,0 +1,18 @@
+@use "sass:list";
+// $length: 10px 15px 20px 22px;
+$length: (
+  width: 10px,
+  height: 20px,
+);
+$first: 10px 20px;
+$second: 30px 40px;
+
+div {
+  padding: list.length($length);
+  padding: list.nth(10px 20px 30px, 2);
+  padding: list.set-nth(10px 20px 30px, 2, 40px);
+  padding: list.slash(10px, 20px, 30px);
+  padding: list.zip(1px 2px 3px, first second third);
+  padding: list.index(1px solid red, solid);
+  padding: list.join($first, $second, comma);
+}

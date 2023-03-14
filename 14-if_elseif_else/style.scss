@@ -1,0 +1,26 @@
+div {
+  $var: 10px;
+  // @if 10==10px {
+  //   padding: 20px;
+  // }
+
+  // @if 10>3 or 20==20px {
+  //   padding: 30px;
+  // }
+
+  // @if 10>3 and 20==20px {
+  //   padding: 30px;
+  // }
+
+  // @if not(0==10) {
+  //   padding: 30px;
+  // }
+
+  @if 100!=100 {
+    padding: 30px;
+  } @else if(10==10px) {
+    padding: 20px;
+  } @else {
+    padding: 10px;
+  }
+}

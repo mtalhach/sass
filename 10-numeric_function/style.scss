@@ -1,0 +1,9 @@
+div {
+  padding-left: ceil(14.1) + px;
+  padding-top: floor(2.9) + px;
+  padding-bottom: max(2, 3, 1, 4, 8, 7) + px;
+  padding-right: min(3, 2, 0, 1) + px;
+
+  $value: round(5.5);
+  margin: $value + px;
+}

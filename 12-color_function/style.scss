@@ -1,0 +1,14 @@
+@use "sass:color";
+$rgb-background-color: rgba(79, 122, 34, 0.74);
+$hex-background-color: #4f7a22;
+$hsl-background-color: hsl(89, 56%, 31%);
+
+div {
+  width: 100px;
+  height: 200px;
+  background-color: red($hex-background-color);
+  background-color: alpha($rgb-background-color);
+  background-color: hue($hex-background-color);
+  background-color: saturation($hex-background-color);
+  background-color: lightness($hex-background-color);
+}

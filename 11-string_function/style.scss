@@ -1,0 +1,12 @@
+@use "sass:string";
+div {
+  font-family: string.quote(Hello);
+  font-family: string.unquote("World");
+  font-family: string.index("Hello World", "ld");
+  font-family: string.insert("Hello Wor", "ld", -1);
+  font-family: string.length("Hello World");
+  font-family: string.slice("Hello This is sass", 7);
+  font-family: string.slice("Hello This is sass", 7, 10);
+  font-family: string.to-lower-case("Hello World");
+  font-family: string.to-upper-case("Hello World");
+}

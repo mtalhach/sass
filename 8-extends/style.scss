@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card1 {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+
+  margin: 10px;
+  padding: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px grey;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 20px;
+}
+
+.card2 {
+  height: 300px;
+  width: 600px;
+  display: inline-block;
+  position: absolute;
+  left: 320px;
+
+  @extend .card1;
+}
+
+.card3 {
+  height: 300px;
+  width: 500px;
+  display: inline-block;
+  position: absolute;
+  left: 320px;
+  @extend .card1;
+}
