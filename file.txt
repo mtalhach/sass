@@ -1,4 +1,6 @@
-sudo apt install ruby-sass
-sass -v
-sass style.scss style.css
-sass --watch style.scss:style.css
+--> For Windows
+1- Install node.js
+2- npm install -g sass
+3- sass -v
+4- sass style.scss style.css
+5- sass --watch style.scss:style.css
